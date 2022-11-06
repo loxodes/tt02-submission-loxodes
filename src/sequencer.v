@@ -9,7 +9,7 @@ module loxodes_sequencer (
     wire reset = io_in[1];
     wire enable = io_in[2];
     wire [4:0] delay;
-    assign delay = io_in[4:0];
+    assign delay = io_in[7:3];
     
     wire [7:0] channel;
     assign io_out[7:0] = channel;

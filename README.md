@@ -2,6 +2,7 @@
 
 Sequentially enable 8 outputs, starting with channel 0.
 The number of clock cycles between incremental channel enables is set by the delay input.
+Channels outputs de-sequence when enable is brought low, starting with channel 7.
 
 This is a submission to Tiny Tapeout 2, see https://tinytapeout.com for context
 
